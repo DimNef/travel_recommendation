@@ -21,10 +21,12 @@ li a {
 li a:hover {
   background-color: #111;
 }
-
+/*
 body {
   background-color: rgb(42, 100, 158);
 }
+*/
+
 h1 {
   color: #d2cdcd;
   margin-left: 20px;
@@ -62,4 +64,16 @@ input{
 textarea{
     background-color:#d2cdcd;
 
+}
+/*
+body {
+  background-image: url("bahamas.jpg");
+  background-repeat: no-repeat;
+  background-size:contain ;
+}
+*/
+
+html {
+  background: url("test.jpeg") no-repeat center fixed;
+  background-size: cover;
 }
