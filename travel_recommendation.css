@@ -1,0 +1,100 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+/*
+body {
+  background-color: rgb(42, 100, 158);
+}
+*/
+
+h1 {
+  color: #d2cdcd;
+  margin-left: 20px;
+}
+p {
+  color: #d2cdcd;
+  margin-left: 20px;
+
+}
+h2{
+    color: #d2cdcd;
+    margin-left: 20px;
+
+
+}
+
+button {
+  background-color:#333;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  opacity: 0.6;
+  transition: 0.3s;
+  cursor:pointer;
+}
+
+button:hover {opacity: 1}
+
+
+input{
+    background-color:#d2cdcd;
+
+    padding: 14px 16px;
+
+}
+
+textarea{
+    background-color:#d2cdcd;
+
+}
+/*
+body {
+  background-image: url("bahamas.jpg");
+  background-repeat: no-repeat;
+  background-size:contain ;
+}
+*/
+
+html {
+  background: url("vac_1.jpg") no-repeat center fixed;
+  background-size: cover;
+}
+.flex-container {
+    display: flex;
+}
+.flex-child {
+    flex: 1;
+    border: 2px solid rgb(109, 109, 95);
+    background-color: rgba(109,109,95,0.5);
+
+}  
+.flex-child:first-child {
+    margin-right: 20px;
+    background-color: rgba(255,255,255,0.5);
+
+} 
